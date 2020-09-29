@@ -1,0 +1,57 @@
+/* miniprogram/pages/index/index.wxss */
+.index{
+  width: 100%;
+}
+.index-swiper {
+  margin: 20rpx;
+  height: 550rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin-top: 90rpx;
+}
+
+.index-swiper image {
+  width: 100%;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.index-tab {
+  display: flex;
+}
+
+.index-tab view {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx;
+  margin: 10rpx;
+  color: rgb(33, 216, 223);
+}
+
+.index-tab view.active {
+  border-bottom: 1px rgb(241, 17, 212) solid;
+  color:rgb(241, 17, 212);
+}
+
+.index-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.index-list-item{
+  margin: 10rpx 0;
+  width: 50%;
+  color: hotpink;
+}
+.index-list-item image{
+  width: 90%;
+  height: 250rpx;
+  margin: 0 auto;
+  display: block;
+}
+
+.index-list-text{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}

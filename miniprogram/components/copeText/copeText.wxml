@@ -1,0 +1,2 @@
+<!--components/copeText/copeText.wxml-->
+<text bindtap="handleCope" class="iconfont iconfuzhi"></text>

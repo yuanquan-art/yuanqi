@@ -1,0 +1,9 @@
+/* miniprogram/pages/message/message.wxss */
+.message {
+  padding: 20rpx;
+}
+.message-text {
+  margin: 30rpx;
+  font-size: 50rpx;
+  color: rgb(204, 23, 174);
+}

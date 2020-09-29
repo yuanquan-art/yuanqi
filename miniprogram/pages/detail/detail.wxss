@@ -1,0 +1,23 @@
+/* miniprogram/pages/detail/detail.wxss */
+.detail .isFriend{
+  color: aqua;
+}
+.detail-item{
+  margin: 20rpx;
+  border-bottom: 1px #37f2f8 dashed;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.detail-item text{
+  font-size: 35rpx;
+  color: #e92ddf;
+}
+.detail-item image{
+   width: 100rpx;
+   height: 100rpx;
+   border-radius: 50%;
+}
+.detail-phoneNumber,.detail-weixinNumber{
+  margin-right: 10rpx;
+}

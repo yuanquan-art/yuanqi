@@ -1,0 +1,6 @@
+<!--miniprogram/pages/editUserInfo/signature/signature.wxml-->
+<view class="signature">
+  <button bindtap="handleBtn">个性签名</button>
+<input type="text" value="{{  signature }}" bindinput="handleText"/>
+</view>
+

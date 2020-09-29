@@ -1,0 +1,24 @@
+/* miniprogram/pages/firendList/friendList.wxss */
+.friendList{
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+  color: rgb(228, 40, 228);
+  font-size: 50rpx;
+}
+.friendList-item{
+  margin-top: 20rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  border-bottom: 1px blueviolet dashed;
+  padding: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(60, 209, 247);
+  font-size: 50rpx;
+}
+.friendList-item image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}

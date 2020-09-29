@@ -1,0 +1,10 @@
+/* miniprogram/pages/editUserInfo/location/location.wxss */
+.location{
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+}
+.location{
+  margin-right: 10rpx;
+  color: rgb(203, 23, 219);
+  font-size: 45rpx;
+}
